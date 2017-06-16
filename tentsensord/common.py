@@ -14,6 +14,7 @@ logic_enabled = True
 
 
 def init_gw_thread(event_handler):
+    """ instantiate the SerialGateway """
     global gw_thread
     gw_thread = mysensors.SerialGateway(
         config["device"], event_handler, protocol_version='1.5',
