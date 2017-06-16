@@ -135,7 +135,6 @@ def main(config_dict=None):
             if value == '0':
                 operations.turn_off(device)
 
-
     """ start http interface """
     conf = {
         '/': {
