@@ -1,5 +1,7 @@
 # Tentsensord
 
+[![Build Status](https://travis-ci.org/joaoubaldo/tentsensord.svg?branch=master)](https://travis-ci.org/joaoubaldo/tentsensord)
+
 ## Description
 
 tentsensord is the service component used to interact with multiple electronic sensors and actuators.  
